@@ -15,7 +15,7 @@ int main()
   cin>>fname;
   cout<<"Please enter your last name: ";
   cin>>lname;
-  cout<<"Welcome, "<<fname<<" "<<lname<<", here is your fortune..."<<endl;
+  cout<<"Welcome, "<<fname.at(0)<<"."<<lname.at(0)<<"., here is your fortune..."<<endl;
   //tell fortune
 
   return 0;
