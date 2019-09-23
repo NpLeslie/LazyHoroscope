@@ -9,7 +9,7 @@ int main()
   //declare variables
   string fname = "";
   string lname = "";
-
+  int lucky = 0;
   //get user input
   cout<<"Please enter your first name: ";
   cin>>fname;
@@ -17,6 +17,7 @@ int main()
   cin>>lname;
   cout<<"Welcome, "<<fname.at(0)<<"."<<lname.at(0)<<"., here is your fortune..."<<endl;
   //tell fortune
-
+  lucky = fname.length(); 
+  cout<<"Your lucky number is "<<lucky<<endl;
   return 0;
 }
